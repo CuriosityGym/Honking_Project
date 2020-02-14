@@ -21,13 +21,13 @@ U8G2_SSD1306_128X64_NONAME_1_SW_I2C u8g2(U8G2_R0, /* clock=*/ SCL, /* data=*/ SD
 int sensorPin = D0;    // select the input pin for the potentiometer
 int sensorValue = 0;  // variable to store the value coming from the sensor
 int Buzzer = 12; 
-String IFTTT_KEY = "mJXR6NpdwgCGNDss5W46MxzxkhwYhzddiJdTeF9gfX-"; //replace this with your IFTTT applet key
+String IFTTT_KEY = "XXXXXXXXXXXXXXXXXXXXXXXXXXXX"; //replace this with your IFTTT applet key
 int a=0;
 const char* eventName  = "CarWarning";
 //const char* IFTTT_URL = "maker.ifttt.com";
 const char* host = "maker.ifttt.com";
-const char* ssid     = "DT_LAB";  // WiFi User Name
-const char* password = "fthu@050318";  //WiFi Passwords
+const char* ssid     = "XXXXXXXX";  // WiFi User Name
+const char* password = "XXXXXXXX";  //WiFi Passwords
 //Adafruit_SSD1306 OLED(OLED_RESET);
 
 const int buttonPin = D3;
